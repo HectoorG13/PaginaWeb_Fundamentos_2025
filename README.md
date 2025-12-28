@@ -1,3 +1,6 @@
 # PaginaWeb_Fundamentos_2025
 Página de Héctor García de la Navarra Rodríguez
 Para la asignatura de Fundamentos de Ingeniería Informática
+
+En esta pagina web se van a ver reflejados los conocimientos de la asignatura de Fundamentos de Ingeniería Informática (1º de Ingeniería Informática).
+En la página se podra ver en el about me una breve descripción acerca de mi, luego en topic hablare acerca de un tema a mi elección el cúal al no tener ninguna restricción he elegido un videojuego llamado rainbow six siege. En el Net se podrá encontrar información acerca de otras páginas web como es la de Adrian David Brad. En el lugar de degree podremos ver un espacio donde muestre las caracteristicas de mi grado, y en concreto las asignaturas, mostrando como una página a parte la de Fundamentos de la Ingeniería Informática. Y para terminar una página de contacto donde pueda enviar información que de estar conectado a un servidor propio guardaría la informacion y enviaría esta información a las personas encargadas de la página.
