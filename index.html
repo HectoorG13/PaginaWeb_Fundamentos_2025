@@ -3,68 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        nav {
-            background-color: #333;
-            padding: 10px;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li {
-            margin: 0 15px;
-            position: relative;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            display: block;
-        }
-        nav ul li a:hover {
-            background-color: #555;
-        }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #333;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
-        }
-        .dropdown-content a {
-            color: white;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-        }
-        .dropdown-content a:hover {
-            background-color: #555;
-        }
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-        main {
-            padding: 20px;
-            text-align: center;
-        }
-    </style>
+    <title>Bienvenido a mi página web</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <!-- Barra de navegación (igual que en las otras páginas) -->
     <nav>
         <ul>
-            <li><a href="aboutme.html">About me</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
             <li><a href="topic.html">Topic</a></li>
             <li><a href="net.html">Net</a></li>
             <li class="dropdown">
@@ -76,9 +23,20 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+    <!-- Contenido principal -->
     <main>
-        <h1>Bienvenido a la Página Principal</h1>
-        <p>Usa la barra de navegación para acceder a las otras secciones.</p>
+        <h1>Bienvenido a mi página web</h1>
+        <p>Héctor García de La Navarra Rodríguez</p>
     </main>
+
+    <!-- Círculos de navegación -->
+    <div class="circles-container">
+        <a href="about.html" class="circle top-left" title="About Me">About Me</a>
+        <a href="net.html" class="circle top-right" title="Net">Net</a>
+        <a href="topic.html" class="circle bottom-left" title="Topic">Topic</a>
+        <a href="degree.html" class="circle bottom-right" title="Degree">Degree</a>
+        <a href="contact.html" class="circle center" title="Contact">Contact</a>
+    </div>
 </body>
 </html>
